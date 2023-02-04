@@ -1,0 +1,11 @@
+.loutside {
+    background:url('/hassets/assets/images/big/auth-bg.jpg') no-repeat center center;
+}
+
+.loutside .next{
+    background-image: url('/hassets/assets/images/auctiondefault.jpg');
+}
+
+.hfail {
+    font-size: 12px;
+}

@@ -1,0 +1,11 @@
+.hdescription {
+    margin-left: 2%;
+}
+.hflag {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.hcard {
+    display: flex;
+}

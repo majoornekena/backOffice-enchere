@@ -1,0 +1,14 @@
+Base :
+    ✔ Ajouter une colomne etat à ticket @done(23-01-29 16:36)
+        0 -> en attente de place
+        50 -> en attente de confirmation
+        100 -> confirmé
+    Trigger PLace :
+        ☐ controller si place complet pour le ticket
+            si oui :
+                ☐ update ticket etat = 50
+            sinon :
+                ☐ erreur si place au delà de l'effectif du ticket
+
+Back :
+    ☐ Sauvena tsy misy place le ticket

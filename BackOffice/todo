@@ -1,0 +1,52 @@
+Mr. Tahina :
+    Contenus :
+        ☐ Sychronisation server/client
+            Details :
+                server :
+                    ☐ SpringBoot / java
+                client :
+                    ☐ Mobile
+                liaison :
+                    ☐ Web Service
+
+    Sortie :
+        ☐ Afaka mapiditra donnee any amin'ny client
+        ☐ Afaka alefa any amin'ny server ny donnee
+        ☐ Afaka sovena local le donnee de alefa amin'ny boutton avy eo
+        ☐ Afaka mijery an'le liste le client
+    Entree :
+        Client :
+            ☐ Donnee venant du formulaire
+            ☐ Donnee venant du server
+        Server :
+            ☐ Donnee avy any amin'ny client
+        
+    Consequence :
+        Server :
+            ☐ Mila base cote server : Postgres
+                Database : 
+                    ☐ Employee
+                    ☐ Departement
+            ☐ Mila server : SpringBoot miandry webservice
+                Class mapping :
+                    ☐ Empolyee
+                    ☐ Departement
+                Controller :
+                    Url par classe :
+                        ☐ Averina ny donnee ao amin le base rehefa avy manao synchronisation 
+                        ☐ Asina parametre na averina na tsia le donnee
+
+        Client :
+            Mila client mandefa an le donnee : Ionic React:
+                ☐ Manangona an le donnee cote client
+                ☐ Mandefa an le liste any amin'ny server via webservice
+                
+            Formulaire de saisie :
+                ☐ Empolyee
+                ☐ Departement
+
+            Liste :
+                ✔ Boutton Synchroniser @done(22-12-16 16:38)
+                ✔ Employee @done(22-12-16 16:38)
+                ☐ Departement
+
